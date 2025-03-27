@@ -16,6 +16,13 @@
 
   <dependencies>
 
+  <distributionManagement>
+        <snapshotRepository>
+            <id>nexus-snapshots</id>
+            <url>http://13.232.142.106:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+           
     <dependency>
       <groupId>pl.bristleback</groupId>
       <artifactId>bristleback-core</artifactId>
